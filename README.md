@@ -12,7 +12,7 @@
     </a>
     <img src="https://img.shields.io/badge/python-3.8+-blue.svg?style=flat-square&logo=python&logoColor=white" alt="python">
     <img src="https://img.shields.io/badge/FastAPI-0.115.2-009688.svg?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
+    <img src="https://img.shields.io/badge/Dev-SongSongSongXi-brightgreen.svg?style=flat-square" alt="PRs Welcome">
   </p>
   
   <p align="center">
