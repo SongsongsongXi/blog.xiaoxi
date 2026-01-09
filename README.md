@@ -42,7 +42,26 @@
 - 🕸️ **SEO 优化:** 自动生成站点地图 (Sitemap)、RSS 源和 Meta 标签，对搜索引擎友好。
 - 🎵 **多媒体集成:** 内置音乐播放器，支持懒加载、翻译等实用功能。
 
-## 🛠️ 技术栈
+## � 界面预览
+
+| 首页 (亮色) | 首页 (暗色) |
+| :---: | :---: |
+| ![首页](public/ReadmeIMG/首页.png) | ![暗色模式](public/ReadmeIMG/首页黑暗版本.png) |
+
+| 归档页 | 读书页 |
+| :---: | :---: |
+| ![归档页](public/ReadmeIMG/归档页.png) | ![读书页](public/ReadmeIMG/读书页.png) |
+
+| 标签页 | 友链页 |
+| :---: | :---: |
+| ![标签页](public/ReadmeIMG/标签页.png) | ![友链页](public/ReadmeIMG/友链页.png) |
+
+<div align="center">
+  <p><strong>命令面板 & 全局搜索</strong></p>
+  <img src="public/ReadmeIMG/搜索和命令功能页.png" alt="搜索和命令功能页" width="80%">
+</div>
+
+## �🛠️ 技术栈
 
 | 类别 | 技术 | 说明 |
 | :--- | :--- | :--- |
