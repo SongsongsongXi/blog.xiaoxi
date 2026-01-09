@@ -166,4 +166,4 @@ summary: 这是第一篇博文。
 
 ## 许可证
 
-本项目是开源的，根据 [MIT 许可证](LICENSE) 提供。
+本项目是开源的，根据 [Apache-2.0 license](LICENSE) 提供。
