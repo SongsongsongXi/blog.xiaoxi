@@ -1,0 +1,8 @@
+## Normalize line endings (LF) to prevent bash^M errors and noisy diffs
+*.sh text eol=lf
+run text eol=lf
+run.sh text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf

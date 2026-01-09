@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  blog:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./docs:/app/docs
+      - ./public:/app/public
+      - ./config.json:/app/config.json
+      - ./book.json:/app/book.json
+    environment:
+      - BLOG_SITE_ORIGIN=http://localhost:8000

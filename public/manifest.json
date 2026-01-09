@@ -1,0 +1,20 @@
+{
+  "name": "小曦的园子",
+  "short_name": "小曦博客",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://img.xiaoxi.ac.cn/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://img.xiaoxi.ac.cn/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

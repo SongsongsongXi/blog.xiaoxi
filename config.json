@@ -1,0 +1,49 @@
+{
+  "siteName": "我的博客",
+  "iconUrl": "/static/icon/github.svg",
+  "description": "一个快速、轻量、现代的 Markdown 博客。",
+  "notice": "欢迎来到你的新博客！你可以在 `config.json` 中编辑此公告。",
+  "noticeDuration": 10,
+  "musicId": "",
+  "musicServer": "netease",
+  "musicType": "playlist",
+  "keywords": [
+    "Markdown",
+    "博客",
+    "FastAPI",
+    "JavaScript"
+  ],
+  "icpNumber": "",
+  "icpLink": "",
+  "gonganNumber": "",
+  "gonganLink": "",
+  "footerHtml": "<p>© 2024 我的博客. 保留所有权利。</p><p>Powered & Designed by SongXi</p>",
+  "footerExtras": [
+    { "text": "RSS", "link": "/feed" }
+  ],
+  "friends": [
+    { "name": "你的朋友", "link": "https://example.com", "desc": "你朋友网站的描述。", "avatar": "https://example.com/avatar.png" }
+  ],
+  "friendsPageText": "<div style=\"margin-top: 2rem; padding: 1.5rem; background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px;\"><h3 style=\"margin-top: 0; border-bottom: none;\">友情链接申请</h3><p>你可以在这里添加申请友情链接的说明。</p></div>",
+  "products": [
+    { "name": "我的产品", "link": "#", "desc": "你的产品的描述。", "avatar": "/static/icon/icon-192.png" }
+  ],
+  "navLinks": [
+    { "title": "首页", "href": "/" },
+    { "title": "关于", "href": "/post/about" },
+    { "title": "更新日志", "href": "/post/fix" },
+    { "title": "归档", "href": "/archive" },
+    { "title": "产品", "href": "/products" },
+    { "title": "读书", "href": "/books" },
+    { "title": "友链", "href": "/friends" }
+  ],
+  "carousel": {
+    "enabled": false,
+    "interval": 5000,
+    "height": 300,
+    "items": [
+      { "image": "https://iph.href.lu/886x300?text=我的博客&fg=666666&bg=cccccc", "link": "#/post/about", "title": "关于本站" }
+    ]
+  }
+}
+

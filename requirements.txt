@@ -1,0 +1,9 @@
+fastapi==0.115.2
+uvicorn[standard]==0.30.6
+watchdog==4.0.2
+python-frontmatter==1.0.1
+Markdown==3.7
+pymdown-extensions==10.9
+Pygments==2.18.0
+orjson==3.10.7
+pydantic==2.9.2
