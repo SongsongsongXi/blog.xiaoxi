@@ -92,8 +92,55 @@
 
 ## ⚙️ 配置说明
 
--   **`config.json`**: 核心配置文件（站点名称、描述、导航链接等）。
--   **`book.json`**: "读书" 页面配置（ISBN、书评等）。
+### 1. 核心配置 (`config.json`)
+
+`config.json` 文件控制了博客的绝大多数外观和功能。以下是主要配置项的说明：
+
+| 字段 | 类型 | 说明 | 示例 |
+| :--- | :--- | :--- | :--- |
+| `siteName` | string | 网站标题 | `"小曦的园子"` |
+| `iconUrl` | string | 网站图标/头像路径 | `"/public/icon/logo.png"` |
+| `description` | string | 网站元描述 (SEO) | `"一个现代化的个人博客"` |
+| `notice` | string | 首页顶部公告栏内容 | `"欢迎访问！"` |
+| `noticeDuration` | number | 公告显示时长(秒) | `10` |
+| `musicId` | string | 网易云音乐歌单 ID | `"2061299955"` |
+| `musicServer` | string | 音乐服务商 | `"netease"` |
+| `footerHtml` | string | 页脚 HTML 内容 | `"<p>© 2024 ...</p>"` |
+| `navLinks` | array | 顶部导航菜单 | `[{"title": "首页", "href": "/"}]` |
+| `friends` | array | 友情链接列表 | `[{"name": "名称", "link": "..."}]` |
+
+### 2. 读书页面配置 (`book.json`)
+
+博客内置了一个精美的"读书"页面，用于展示您的阅读清单。该功能依赖外部图书 API 获取书籍元数据。
+
+#### 配置步骤
+
+1.  **获取 API Token**:
+    由于图书 API 采用了域名绑定的签名验证机制，您需要前往 **[Token 生成器](https://token.xiaoxi.ac.cn/token_generator.html)** 页面。输入您的博客域名（例如 `blog.example.com` 或 `localhost:8000`）生成专属 Token。
+
+2.  **编辑 `book.json`**:
+    将生成的 Token 和 API 地址填入配置文件。
+
+    ```json
+    {
+      "token": "您的专属TOKEN",
+      "api_url": "https://isbn.xiaoxi.ac.cn/search",
+      "reading": [
+        "9787115546081",
+        "9787121362085"
+      ],
+      "finished": [
+         "9787111128069"
+      ]
+    }
+    ```
+
+    *   `token`: 您生成的 API 访问令牌。
+    *   `api_url`: 图书搜索接口地址，默认为 `https://isbn.xiaoxi.ac.cn/search`。
+    *   `reading`: **正在阅读**的书籍 ISBN 列表（字符串数组）。
+    *   `finished`: **已读完**的书籍 ISBN 列表。
+
+    > 📚 **API 接口说明**: 详细的图书接口文档和使用限制，请参阅 [图书搜索 API 文档](https://xiaoxi.ac.cn/post/20260106)。
 
 ## 📝 文章发布
 
