@@ -20,7 +20,7 @@
     <a href="#-功能特性">功能特性</a> •
     <a href="#-技术栈">技术栈</a> •
     <a href="#-本地开发">本地开发</a> •
-    <a href="#-部署">部署</a>
+    <a href="#-部署">部署</a> •
     <a href="https://xiaoxi.ac.cn">Demo</a>
   </p>
 </div>
